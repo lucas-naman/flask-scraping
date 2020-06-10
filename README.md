@@ -1,6 +1,6 @@
 # REST API With Flask & Google Firebase & Google App Engine
 
-> API to scrap a web site
+> API to scrap and store images from Wikipedia
 
 ## Quick Start Using Venv
 
