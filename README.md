@@ -1,4 +1,4 @@
-# REST API With Flask & MongodbAtlas & Google App Engine
+# REST API With Flask & Google Firebase & Google App Engine
 
 > API to scrap a web site
 
@@ -41,4 +41,5 @@ $ gcloud app browse
 
 ## Endpoints
 
-* GET     /getdata
+* GET     /scrap/<word>
+* GET     /geturls/<word>

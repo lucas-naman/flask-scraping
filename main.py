@@ -9,7 +9,7 @@ app.register_blueprint(geturls, url_prefix="/geturls")
 
 @app.route('/')
 def root():
-    return "Rest Api with google app engine, mongodbAtlas and Flask use this url and /scrap/canada to store the 10 first images of canada on wikipedia"
+    return "Rest Api with google app engine, Google Firebase and Flask use this url and /scrap/canada to store the 10 first images of canada on wikipedia"
 
 # Run server
 if __name__ == '__main__':
