@@ -3,10 +3,12 @@ import requests
 from bs4 import BeautifulSoup
 from .database import db
 from .modelscrap import Scrap
+from .decorator import api_key_check
 
 scrap = Blueprint("scrap", __name__)
 
 @scrap.route("/<word>", methods=["GET"])
+@api_key_check
 def _scrap(word):
 
     if not word:

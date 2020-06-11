@@ -1,4 +1,4 @@
-from flask import Flask, Blueprint
+from flask import Flask, Blueprint, request
 from scap.scrap import scrap
 from scap.geturls import geturls
 
